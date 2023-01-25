@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfeb36de-f491-4520-8a66-93ac0a3f8ee5" name="Changes" comment="Get class _test created and post created">
+    <list default="true" id="dfeb36de-f491-4520-8a66-93ac0a3f8ee5" name="Changes" comment="persons created implemented in Test class -verified">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/api/tut/helpers/PersonalServiceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/api/tut/helpers/PersonalServiceHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/api/tut/tests/TestPostPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/api/tut/tests/TestPostPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/api/tut/tests/TestPatchPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/api/tut/tests/TestPatchPerson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,26 +81,13 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestPostPerson">
+  <component name="RunManager" selected="TestNG.TestPatchPerson.updateUser">
     <configuration name="PersonalServiceHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.api.tut.helpers.PersonalServiceHelper" />
       <module name="RestAssure" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.api.tut.helpers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="helpers.PersonalServiceHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="helpers.PersonalServiceHelper" />
-      <module name="RestAssure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="helpers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,6 +130,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestPatchPerson.updateUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.api.tut.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.api.tut.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.api.tut.tests.TestPatchPerson" />
+      <option name="METHOD_NAME" value="updateUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestPostPerson" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssure" />
       <extension name="coverage">
@@ -163,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestPatchPerson.updateUser" />
         <item itemvalue="TestNG.TestPostPerson" />
         <item itemvalue="Application.PersonalServiceHelper" />
         <item itemvalue="TestNG.TestGetPerson" />
         <item itemvalue="TestNG.TestGetPerson.GetAllPersons" />
-        <item itemvalue="Application.helpers.PersonalServiceHelper" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674664254547</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="persons created implemented in Test class -verified">
+      <created>1674668789899</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674668789899</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,7 +259,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="API Automation series" />
     <MESSAGE value="Get class _test created and post created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Get class _test created and post created" />
+    <MESSAGE value="persons created implemented in Test class -verified" />
+    <option name="LAST_COMMIT_MESSAGE" value="persons created implemented in Test class -verified" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
