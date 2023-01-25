@@ -1,0 +1,1 @@
+{"uuid":"6e2ef1ad-b525-409f-9208-2653aadf091c","name":"com.api.tut.tests.TestGetPerson","children":["85e55816-4668-43d5-be30-4100dc2f29a9"],"befores":[{"name":"init","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1674662344781,"stop":1674662345209}],"afters":[],"start":1674662344753,"stop":1674662348671}

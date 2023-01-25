@@ -4,20 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfeb36de-f491-4520-8a66-93ac0a3f8ee5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Deserialize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/HamcrestSimpleExamplesTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PojoPack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PojoPackDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/RequestBuildersResponseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TutAPi.java" afterDir="false" />
+    <list default="true" id="dfeb36de-f491-4520-8a66-93ac0a3f8ee5" name="Changes" comment="API Automation series">
+      <change afterPath="$PROJECT_DIR$/Resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/testData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/02c52a46-d5a5-4a40-af38-daedd454bbea-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5d082850-1a0e-4338-96a4-e6dcac923480-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/64b2a72d-5e63-4580-895b-8a77fd4e195e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6a86bd14-5488-4d0f-9a0a-186efa9c357e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6e2ef1ad-b525-409f-9208-2653aadf091c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7423468f-fd46-41c0-b097-aaff3e06cb5b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7777bfd6-53b0-4d8e-b748-faf7ab211d02-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7806c5a3-c397-49a6-8e9d-e2329fe93e1b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/85e55816-4668-43d5-be30-4100dc2f29a9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9b0432c6-20ac-40f0-bac1-5fb02ba5c918-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a37e0d05-8a00-4a77-b26e-e06628f2da6a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a68b764c-9286-487c-9dbb-07ff3f5bd072-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a6ef4ee4-82db-47b6-8e22-2085b4fafa6e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c0158391-0583-4f50-bd05-b7e6d786b29e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c243c429-ffc9-4056-8eca-d67c684acbbc-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ced2930a-224a-4a71-852e-712030faf48c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d3eff8d4-a60e-44dc-ade8-5bd219ff9c3d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d58332ff-9beb-454b-998a-77214f2534e4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/dbc6e8a2-132c-4c04-b10f-2f8bf475d7c4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e59f8a69-eabe-4948-8848-8e8238922336-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/tut/constants/EndPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/tut/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/tut/utilities/ConfigManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/api/tut/helpers/PersonalServiceHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/api/tut/tests/TestDeletePerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/api/tut/tests/TestGetPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/api/tut/tests/TestPatchPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/api/tut/tests/TestPostPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/PersonalServiceHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ChildTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ParentDummyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +55,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Nithesh &lt;nitheshkumar0731@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -58,11 +85,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "TestNG",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG": "",
+    "last_directory_selection": "C:/Users/nitheshkumar.eshwaran@expleogroup.com/IdeaProjects/untitled/src/test/java",
     "last_opened_file_path": "C:/Users/nitheshkumar.eshwaran@expleogroup.com/IdeaProjects/untitled/src/test/java",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "Settings.Markdown"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -85,13 +113,13 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Deserialize">
-    <configuration name="Deserialize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Deserialize" />
+  <component name="RunManager" selected="TestNG.TestGetPerson">
+    <configuration name="ConfigManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.api.tut.utilities.ConfigManager" />
       <module name="RestAssure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="com.api.tut.utilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Serialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Serialization" />
+    <configuration name="PersonalServiceHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.api.tut.helpers.PersonalServiceHelper" />
       <module name="RestAssure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="com.api.tut.helpers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,16 +140,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RequestBuilders (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="helpers.PersonalServiceHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="helpers.PersonalServiceHelper" />
       <module name="RestAssure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="helpers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RequestBuilders" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGetPerson" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.api.tut.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.api.tut.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.api.tut.tests.TestGetPerson" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -129,138 +170,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RequestBuilders" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGetPerson.GetAllPersons" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="com.api.tut.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RequestBuilders" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RequestBuildersResponseBuilder" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RequestBuildersResponseBuilder" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RequestBuildersResponseBuilder" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RequestBuildersResponseBuilder" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RequestBuildersResponseBuilder" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RequestBuildersResponseBuilder" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RequestBuildersResponseBuilder.getUsers" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RequestBuildersResponseBuilder" />
-      <option name="METHOD_NAME" value="getUsers" />
+      <option name="PACKAGE_NAME" value="com.api.tut.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.api.tut.tests.TestGetPerson" />
+      <option name="METHOD_NAME" value="GetAllPersons" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Serialization" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Serialization" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Serialization.Serialize" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Serialization" />
-      <option name="METHOD_NAME" value="Serialize" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TutAPi" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Dummy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TutAPi" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -269,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Deserialize" />
-        <item itemvalue="TestNG.Serialization.Serialize" />
-        <item itemvalue="TestNG.Serialization" />
-        <item itemvalue="Application.Serialization" />
-        <item itemvalue="TestNG.RequestBuildersResponseBuilder" />
+        <item itemvalue="TestNG.TestGetPerson" />
+        <item itemvalue="TestNG.TestGetPerson.GetAllPersons" />
+        <item itemvalue="Application.PersonalServiceHelper" />
+        <item itemvalue="Application.helpers.PersonalServiceHelper" />
+        <item itemvalue="Application.ConfigManager" />
       </list>
     </recent_temporary>
   </component>
@@ -286,11 +207,51 @@
       <option name="presentableId" value="Default" />
       <updated>1673366262912</updated>
     </task>
+    <task id="LOCAL-00001" summary="API Automation series">
+      <created>1674505353593</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674505353593</updated>
+    </task>
+    <task id="LOCAL-00002" summary="API Automation series">
+      <created>1674505652228</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674505652228</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="524d179d-984a-46da-813a-4360ebea6b0c">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/nitheshkumar.eshwaran@expleogroup.com/IdeaProjects/untitled/src/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -298,5 +259,28 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="524d179d-984a-46da-813a-4360ebea6b0c" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="API Automation series" />
+    <option name="LAST_COMMIT_MESSAGE" value="API Automation series" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
