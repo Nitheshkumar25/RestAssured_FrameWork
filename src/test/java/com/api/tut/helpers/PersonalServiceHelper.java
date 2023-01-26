@@ -53,13 +53,15 @@ public class PersonalServiceHelper {
     public static Response createPerson() {
 
         Person person = new Person();
-        person.setFirstName("Aashika");
-        person.setLastName("Abdul");
-        person.setAge(22);
-        person.setId(17);
-        person.setAddress("TirunelVeli");
-        person.setPhoneNumbers("9995871119");
+
         try {
+            ConfigManager.GetEndPointData();;
+            person.setFirstName(ConfigManager.Body.get(1)[0]);
+            person.setLastName(ConfigManager.Body.get(1)[1]);
+            person.setAge(Integer.parseInt(ConfigManager.Body.get(1)[2]));
+            person.setId(Integer.parseInt(ConfigManager.Body.get(1)[3]));
+            person.setAddress(ConfigManager.Body.get(1)[4]);
+            person.setPhoneNumbers(ConfigManager.Body.get(1)[5]);
             Json = MAPPER.writeValueAsString(person);
         } catch (JsonProcessingException e) {
             throw new RuntimeException(e);
@@ -71,12 +73,13 @@ public class PersonalServiceHelper {
     public static Response UpdatePerson(int id) {
 
         Person person = new Person();
-        person.setFirstName("pradhiksna");
-        person.setLastName("selvam");
-        person.setAge(22);
-        person.setId(16);
-        person.setAddress("masani Amman kovil");
-        person.setPhoneNumbers("9995871119");
+        ConfigManager.GetEndPointData();
+        person.setFirstName(ConfigManager.Body.get(1)[0]);
+        person.setLastName(ConfigManager.Body.get(1)[1]);
+        person.setAge(Integer.parseInt(ConfigManager.Body.get(1)[2]));
+        person.setId(Integer.parseInt(ConfigManager.Body.get(1)[3]));
+        person.setAddress(ConfigManager.Body.get(1)[4]);
+        person.setPhoneNumbers(ConfigManager.Body.get(1)[5]);
         try {
             Json = MAPPER.writeValueAsString(person);
         } catch (JsonProcessingException e) {
@@ -93,10 +96,6 @@ public class PersonalServiceHelper {
         return persons.size();
     }
 
-//    public static void main(String[] args) {
-//        personalServiceHelper =new PersonalServiceHelper();
-//
-//        System.out.println("response -post person:" + createPerson().then().extract().jsonPath().getString("age"));
-//    }
+
 
 }
