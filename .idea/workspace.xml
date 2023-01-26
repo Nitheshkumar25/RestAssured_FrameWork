@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfeb36de-f491-4520-8a66-93ac0a3f8ee5" name="Changes" comment="sample" />
+    <list default="true" id="dfeb36de-f491-4520-8a66-93ac0a3f8ee5" name="Changes" comment="sample">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/testData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/testData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/tut/utilities/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/tut/utilities/ConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/api/tut/helpers/PersonalServiceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/api/tut/helpers/PersonalServiceHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/api/tut/tests/crudIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/api/tut/tests/crudIntegration.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,8 +89,21 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.crudintegration">
-    <configuration name="TestPatchPerson.updateUser" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.crudIntegration.createNewPerson">
+    <configuration name="ConfigManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.api.tut.utilities.ConfigManager" />
+      <module name="RestAssure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.api.tut.utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="crudIntegration" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssure" />
       <extension name="coverage">
         <pattern>
@@ -92,16 +112,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.api.tut.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.api.tut.tests.TestPatchPerson" />
-      <option name="METHOD_NAME" value="updateUser" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.api.tut.tests.crudIntegration" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPostPerson" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="crudIntegration.createNewPerson" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssure" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +129,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.api.tut.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.api.tut.tests.TestPostPerson" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.api.tut.tests.crudIntegration" />
+      <option name="METHOD_NAME" value="createNewPerson" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -129,24 +149,6 @@
       <option name="PACKAGE_NAME" value="com.api.tut.tests" />
       <option name="MAIN_CLASS_NAME" value="com.api.tut.tests.crudintegration" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="crudintegration.VerifyAllUsers" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.api.tut.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.api.tut.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.api.tut.tests.crudintegration" />
-      <option name="METHOD_NAME" value="VerifyAllUsers" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -173,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.crudIntegration.createNewPerson" />
+        <item itemvalue="TestNG.crudIntegration" />
+        <item itemvalue="Application.ConfigManager" />
         <item itemvalue="TestNG.crudintegration" />
         <item itemvalue="TestNG.crudintegration.createNewPerson" />
-        <item itemvalue="TestNG.crudintegration.VerifyAllUsers" />
-        <item itemvalue="TestNG.TestPatchPerson.updateUser" />
-        <item itemvalue="TestNG.TestPostPerson" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674714231476</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="sample">
+      <created>1674714298166</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674714298167</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
