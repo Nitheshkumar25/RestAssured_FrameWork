@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfeb36de-f491-4520-8a66-93ac0a3f8ee5" name="Changes" comment="sample">
+    <list default="true" id="dfeb36de-f491-4520-8a66-93ac0a3f8ee5" name="Changes" comment="Data Driven Added (CSV)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/testData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/testData.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/tut/utilities/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/tut/utilities/ConfigManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/api/tut/helpers/PersonalServiceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/api/tut/helpers/PersonalServiceHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Dummy/JourneyRestAssure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Dummy/JourneyRestAssureTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/api/tut/tests/crudIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/api/tut/tests/crudIntegration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ChildTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Deserialize.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/HamcrestSimpleExamplesTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ParentDummyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PojoPack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PojoPackDo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/RequestBuildersResponseBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Serialization.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TutAPi.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674714298167</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Data Driven Added (CSV)">
+      <created>1674720135738</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674720135738</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,7 +321,8 @@
     <MESSAGE value="Integration Done And Persons verified after Post CRUD." />
     <MESSAGE value="code Aligned-variables moved to top level" />
     <MESSAGE value="sample" />
-    <option name="LAST_COMMIT_MESSAGE" value="sample" />
+    <MESSAGE value="Data Driven Added (CSV)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Driven Added (CSV)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

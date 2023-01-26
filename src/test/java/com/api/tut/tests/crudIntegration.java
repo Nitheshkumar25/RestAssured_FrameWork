@@ -19,7 +19,7 @@ public class crudIntegration {
         System.out.println("Check users are updated");
         int usersCount = personalServiceHelper.verifyAfterCrud();
         assertEquals(7, usersCount, "users are updated fine");
-        if (usersCount == 6) {
+        if (usersCount == 7) {
             System.out.println("users are updated fine");
         }
     }
