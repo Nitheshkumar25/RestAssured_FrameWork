@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfeb36de-f491-4520-8a66-93ac0a3f8ee5" name="Changes" comment="Integration Done And Persons verified after Post CRUD.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/api/tut/helpers/PersonalServiceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/api/tut/helpers/PersonalServiceHelper.java" afterDir="false" />
-    </list>
+    <list default="true" id="dfeb36de-f491-4520-8a66-93ac0a3f8ee5" name="Changes" comment="sample" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +23,11 @@
       <list>
         <option value="Nithesh &lt;nitheshkumar0731@gmail.com&gt;" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -230,7 +232,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674713624693</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="code Aligned-variables moved to top level">
+      <created>1674713855457</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674713855457</updated>
+    </task>
+    <task id="LOCAL-00008" summary="sample">
+      <created>1674714231476</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674714231476</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,7 +296,9 @@
     <MESSAGE value="persons created implemented in Test class -verified" />
     <MESSAGE value="UpdatePerson Test Class Added" />
     <MESSAGE value="Integration Done And Persons verified after Post CRUD." />
-    <option name="LAST_COMMIT_MESSAGE" value="Integration Done And Persons verified after Post CRUD." />
+    <MESSAGE value="code Aligned-variables moved to top level" />
+    <MESSAGE value="sample" />
+    <option name="LAST_COMMIT_MESSAGE" value="sample" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
