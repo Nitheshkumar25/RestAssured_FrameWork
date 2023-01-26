@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfeb36de-f491-4520-8a66-93ac0a3f8ee5" name="Changes" comment="persons created implemented in Test class -verified">
+    <list default="true" id="dfeb36de-f491-4520-8a66-93ac0a3f8ee5" name="Changes" comment="UpdatePerson Test Class Added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/api/tut/tests/crudIntegration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/api/tut/helpers/PersonalServiceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/api/tut/helpers/PersonalServiceHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/api/tut/tests/TestPatchPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/api/tut/tests/TestPatchPerson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +54,11 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "TestNG",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG": "",
     "last_directory_selection": "C:/Users/nitheshkumar.eshwaran@expleogroup.com/IdeaProjects/untitled/src/test/java",
-    "last_opened_file_path": "C:/Users/nitheshkumar.eshwaran@expleogroup.com/IdeaProjects/untitled/src/test/java",
+    "last_opened_file_path": "C:/Users/nitheshkumar.eshwaran@expleogroup.com/IdeaProjects/RestAssured",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Settings.Markdown"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -81,55 +81,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestPatchPerson.updateUser">
-    <configuration name="PersonalServiceHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.api.tut.helpers.PersonalServiceHelper" />
-      <module name="RestAssure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.api.tut.helpers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestGetPerson" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.api.tut.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.api.tut.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.api.tut.tests.TestGetPerson" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestGetPerson.GetAllPersons" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.api.tut.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.api.tut.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.api.tut.tests.TestGetPerson" />
-      <option name="METHOD_NAME" value="GetAllPersons" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.crudintegration">
     <configuration name="TestPatchPerson.updateUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssure" />
       <extension name="coverage">
@@ -165,13 +117,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="crudintegration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.api.tut.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.api.tut.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.api.tut.tests.crudintegration" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="crudintegration.VerifyAllUsers" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.api.tut.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.api.tut.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.api.tut.tests.crudintegration" />
+      <option name="METHOD_NAME" value="VerifyAllUsers" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="crudintegration.createNewPerson" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.api.tut.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.api.tut.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.api.tut.tests.crudintegration" />
+      <option name="METHOD_NAME" value="createNewPerson" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.crudintegration" />
+        <item itemvalue="TestNG.crudintegration.createNewPerson" />
+        <item itemvalue="TestNG.crudintegration.VerifyAllUsers" />
         <item itemvalue="TestNG.TestPatchPerson.updateUser" />
         <item itemvalue="TestNG.TestPostPerson" />
-        <item itemvalue="Application.PersonalServiceHelper" />
-        <item itemvalue="TestNG.TestGetPerson" />
-        <item itemvalue="TestNG.TestGetPerson.GetAllPersons" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674668789899</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="UpdatePerson Test Class Added">
+      <created>1674671514612</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674671514612</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,7 +272,8 @@
     <MESSAGE value="API Automation series" />
     <MESSAGE value="Get class _test created and post created" />
     <MESSAGE value="persons created implemented in Test class -verified" />
-    <option name="LAST_COMMIT_MESSAGE" value="persons created implemented in Test class -verified" />
+    <MESSAGE value="UpdatePerson Test Class Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="UpdatePerson Test Class Added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

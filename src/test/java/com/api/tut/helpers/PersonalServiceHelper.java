@@ -52,11 +52,11 @@ public class PersonalServiceHelper {
     public static Response createPerson() {
 
         Person person=new Person();
-        person.setFirstName("pradhiksna");
-        person.setLastName("selvam");
+        person.setFirstName("Aashika");
+        person.setLastName("Abdul");
         person.setAge(22);
-        person.setId(16);
-        person.setAddress("Pollachi");
+        person.setId(17);
+        person.setAddress("TirunelVeli");
         person.setPhoneNumbers("9995871119");
         try {
              Json=MAPPER.writeValueAsString(person);
@@ -65,6 +65,8 @@ public class PersonalServiceHelper {
         }
         return RestAssured.given().contentType(ContentType.JSON).when().body(Json).post(EndPoints.CREATE_PERSON);
     }
+    //update a resource
+
     public static Response UpdatePerson(int id) {
 
         Person person=new Person();
@@ -82,8 +84,13 @@ public class PersonalServiceHelper {
         return RestAssured.given().contentType(ContentType.JSON).pathParams("id",id).when().body(Json).patch(EndPoints.UPDATE_PERSON);
     }
 
-    //update a resource
+    //crud integration after HTTP calls made
+public  int verifyAfterCrud(){
+    personalServiceHelper =new PersonalServiceHelper();
+    List<Person> persons= personalServiceHelper.getAllPerson();
 
+return  persons.size();
+}
 
 //    public static void main(String[] args) {
 //        personalServiceHelper =new PersonalServiceHelper();
