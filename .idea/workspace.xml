@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfeb36de-f491-4520-8a66-93ac0a3f8ee5" name="Changes" comment="UpdatePerson Test Class Added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/api/tut/tests/crudIntegration.java" afterDir="false" />
+    <list default="true" id="dfeb36de-f491-4520-8a66-93ac0a3f8ee5" name="Changes" comment="Integration Done And Persons verified after Post CRUD.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/api/tut/helpers/PersonalServiceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/api/tut/helpers/PersonalServiceHelper.java" afterDir="false" />
     </list>
@@ -224,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674671514612</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Integration Done And Persons verified after Post CRUD.">
+      <created>1674713624693</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674713624693</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,7 +279,8 @@
     <MESSAGE value="Get class _test created and post created" />
     <MESSAGE value="persons created implemented in Test class -verified" />
     <MESSAGE value="UpdatePerson Test Class Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="UpdatePerson Test Class Added" />
+    <MESSAGE value="Integration Done And Persons verified after Post CRUD." />
+    <option name="LAST_COMMIT_MESSAGE" value="Integration Done And Persons verified after Post CRUD." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

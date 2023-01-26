@@ -26,6 +26,8 @@ public class PersonalServiceHelper {
     static PersonalServiceHelper personalServiceHelper;
     private static final String BASE_URL = ConfigManager.getInstance().getString("baseUrl");
     private static final String PORT = ConfigManager.getInstance().getString("port");
+    private static final ObjectMapper MAPPER = new ObjectMapper();
+    static String Json;
 
     public PersonalServiceHelper() {
         RestAssured.baseURI = BASE_URL;
@@ -47,11 +49,10 @@ public class PersonalServiceHelper {
         List<Person> personList = response.as(type);
         return personList;
     }
-    private static  final ObjectMapper MAPPER=new ObjectMapper();
-    static String Json;
+
     public static Response createPerson() {
 
-        Person person=new Person();
+        Person person = new Person();
         person.setFirstName("Aashika");
         person.setLastName("Abdul");
         person.setAge(22);
@@ -59,7 +60,7 @@ public class PersonalServiceHelper {
         person.setAddress("TirunelVeli");
         person.setPhoneNumbers("9995871119");
         try {
-             Json=MAPPER.writeValueAsString(person);
+            Json = MAPPER.writeValueAsString(person);
         } catch (JsonProcessingException e) {
             throw new RuntimeException(e);
         }
@@ -69,7 +70,7 @@ public class PersonalServiceHelper {
 
     public static Response UpdatePerson(int id) {
 
-        Person person=new Person();
+        Person person = new Person();
         person.setFirstName("pradhiksna");
         person.setLastName("selvam");
         person.setAge(22);
@@ -77,20 +78,20 @@ public class PersonalServiceHelper {
         person.setAddress("masani Amman kovil");
         person.setPhoneNumbers("9995871119");
         try {
-            Json=MAPPER.writeValueAsString(person);
+            Json = MAPPER.writeValueAsString(person);
         } catch (JsonProcessingException e) {
             throw new RuntimeException(e);
         }
-        return RestAssured.given().contentType(ContentType.JSON).pathParams("id",id).when().body(Json).patch(EndPoints.UPDATE_PERSON);
+        return RestAssured.given().contentType(ContentType.JSON).pathParams("id", id).when().body(Json).patch(EndPoints.UPDATE_PERSON);
     }
 
     //crud integration after HTTP calls made
-public  int verifyAfterCrud(){
-    personalServiceHelper =new PersonalServiceHelper();
-    List<Person> persons= personalServiceHelper.getAllPerson();
+    public int verifyAfterCrud() {
+        personalServiceHelper = new PersonalServiceHelper();
+        List<Person> persons = personalServiceHelper.getAllPerson();
 
-return  persons.size();
-}
+        return persons.size();
+    }
 
 //    public static void main(String[] args) {
 //        personalServiceHelper =new PersonalServiceHelper();
